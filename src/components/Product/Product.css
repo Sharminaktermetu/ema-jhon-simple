@@ -1,0 +1,33 @@
+.product{
+    width: 300px;
+    height: 510px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    margin: 30px 0 30px 30px;
+    position: relative;
+}
+
+.product img{
+    width: 286px;
+    height: 286px;
+    border-radius: 7px;
+    margin: 8px;
+}
+.products-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+.product-js p {
+    line-height: 15px;
+}
+.btn-card{
+    width: 100%;
+    background-color: antiquewhite;
+    border: none;
+    border-radius:8px;
+    position: absolute;
+    bottom: 0;
+}
+.btn-card:hover{
+    background-color: lightcoral;
+}
